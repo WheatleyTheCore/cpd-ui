@@ -10,32 +10,36 @@ class Grid extends React.Component {
     constructor(props) {
         super(props)
 
-        // console.log("jsonData is type: ", typeof jsonData, jsonData);
+        console.log("jsonData is type: ", typeof jsonData, jsonData);
         this.ColumnNames = this.getColumnNames(jsonData);
         this.RowNames = this.getRowNames(jsonData);
         this.RowData =  this.formatRowData(jsonData);
         this.ColDefs = this.getColumnDefs(this.ColumnNames);
 
-        // console.log("column names are: ", this.ColumnNames);
-        // console.log("row names are: ", this.RowNames);
-        console.log("columnDefs are: ", this.ColDefs);
+        console.log("column names are: ", this.ColumnNames);
+        console.log("row names are: ", this.RowNames);
         console.log("rowData is: ", this.RowData);
+        console.log("columnDefs are: ", this.ColDefs);
 
         this.state = {
             columnDefs: this.ColDefs,
-            rowData: this.RowData
+            rowData: this.rowData
         }
+
+        
     }
 
     render() {
         return (
             <div 
-                className="ag-theme-balham"
-                style={{ height: '500px', width: '100%' }}>
+            className="ag-theme-balham"
+            style={{ 
+            height: '500px', 
+            width: '100%' }} 
+            >
                 <AgGridReact
-                    columnDefs={this.state.columnDefs}
-                    rowData={this.state.rowData}
-                    enableBrowserTooltips>
+                columnDefs={this.state.columnDefs}
+                rowData={this.state.rowData}>
                 </AgGridReact>
              </div>
         )
@@ -52,24 +56,21 @@ class Grid extends React.Component {
 
     getRowNames(json) {
         let result = Object.keys(json);
+        console.log("row names are: ", result);
         return result;
     }
 
     getColumnDefs(colNames){
         let columnDefs = colNames.map(col => {
-            return { 
-                headerName: col, 
-                field: col, 
-                tooltipField: col,
-                cellClass: (params) => {
-                    return params.value && params.value.length > 1 ? 'cell-highlight-dual-deps' : undefined;
-                }
-            };
+            return { 'headerName': col, 'field': `data['${col}']` };
         });
+        
+        console.log("columnDefs are : ", columnDefs);
+
         return [
             { headerName: 'Library Name', field: 'name'},
             ...columnDefs
-        ];
+        ]
     }
 
     formatRowData(json) {
@@ -77,9 +78,10 @@ class Grid extends React.Component {
         Object.keys(json).forEach(k => {
             rowData.push({
                 name: k,
-                ...json[k]
+                data: json[k]
             });
         })
+        console.log(rowData);
         return rowData;
     }
 }

@@ -18,24 +18,23 @@ class Grid extends React.Component {
 
         // console.log("column names are: ", this.ColumnNames);
         // console.log("row names are: ", this.RowNames);
-        console.log("columnDefs are: ", this.ColDefs);
-        console.log("rowData is: ", this.RowData);
+        // console.log("columnDefs are: ", this.ColDefs);
+        // console.log("rowData is: ", this.RowData);
 
         this.state = {
             columnDefs: this.ColDefs,
-            rowData: this.RowData
+            rowData: this.rowData
         }
     }
 
     render() {
         return (
             <div 
-                className="ag-theme-balham"
-                style={{ height: '500px', width: '100%' }}>
+            className="ag-theme-balham"
+            style={{ height: '500px', width: '100%' }}>
                 <AgGridReact
-                    columnDefs={this.state.columnDefs}
-                    rowData={this.state.rowData}
-                    enableBrowserTooltips>
+                columnDefs={this.state.columnDefs}
+                rowData={this.state.rowData}>
                 </AgGridReact>
              </div>
         )
@@ -52,19 +51,13 @@ class Grid extends React.Component {
 
     getRowNames(json) {
         let result = Object.keys(json);
+        console.log("row names are: ", result);
         return result;
     }
 
     getColumnDefs(colNames){
         let columnDefs = colNames.map(col => {
-            return { 
-                headerName: col, 
-                field: col, 
-                tooltipField: col,
-                cellClass: (params) => {
-                    return params.value && params.value.length > 1 ? 'cell-highlight-dual-deps' : undefined;
-                }
-            };
+            return { 'headerName': col, 'field': col };
         });
         return [
             { headerName: 'Library Name', field: 'name'},
@@ -80,6 +73,7 @@ class Grid extends React.Component {
                 ...json[k]
             });
         })
+        console.log(rowData);
         return rowData;
     }
 }

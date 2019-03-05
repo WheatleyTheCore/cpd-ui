@@ -1,0 +1,835 @@
+{
+    "autodll-webpack-plugin": {
+            "platform-common-vendor": ["devDependencies@^0.3.8"],
+            "platform-common-ui": ["devDependencies@^0.3.8"],
+            "platform-automation-engine-ui": ["devDependencies@^0.3.8"],
+            "platform-correlation-engine-ui": ["devDependencies@^0.3.8"],
+            "platform-tasking-ui": ["devDependencies@^0.3.8"],
+            "platform-profiling-ui": ["devDependencies@^0.3.8"]
+        }
+    ,
+    "commitizen": [{
+        "platform-common-vendor": ["devDependencies@^2.9.6"]
+    },
+    "cz-conventional-changelog": [{
+        "platform-common-vendor": ["devDependencies@^2.1.0"]
+    },
+    "validate-commit-msg": [{
+        "platform-common-vendor": ["devDependencies@^2.14.0"]
+    },
+    "webpack": {
+            "platform-common-vendor": ["devDependencies@^3.10.0"],
+            "platform-common-ui": ["devDependencies@^3.10.0"],
+            "platform-automation-engine-ui": ["devDependencies@^3.10.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^3.10.0"],
+            "platform-tasking-ui": ["devDependencies@^3.10.0"],
+            "platform-profiling-ui": ["devDependencies@^3.10.0"],
+            "rmm-its-portal": ["devDependencies@^3.10.0"]
+        }
+    ,
+    "webpack-dev-server": {
+            "platform-common-vendor": ["devDependencies@^2.11.1"],
+            "platform-common-ui": ["devDependencies@^2.11.1"],
+            "platform-automation-engine-ui": ["devDependencies@^2.11.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.11.1"],
+            "platform-tasking-ui": ["devDependencies@^2.11.1"],
+            "platform-profiling-ui": ["devDependencies@^2.11.1"],
+            "rmm-its-portal": ["devDependencies@^2.11.1"]
+        }
+    ,
+    "ag-grid": {
+            "platform-common-ui": ["dependencies@^13.2.0"],
+            "rmm-its-portal": ["dependencies@^13.2.0"]
+        }
+    ,
+    "ag-grid-react": {
+            "platform-common-ui": ["dependencies@^13.2.0"],
+            "rmm-its-portal": ["dependencies@^13.2.0"]
+        }
+    ,
+    "faker": [{
+        "platform-common-ui": ["dependencies@^4.1.0"]
+    },
+    "platform-common-vendor": {
+            "platform-common-ui": ["dependencies@^1.0.0"],
+            "platform-automation-engine-ui": ["dependencies@^1.0.0"],
+            "platform-correlation-engine-ui": ["dependencies@^1.0.0"],
+            "platform-tasking-ui": ["dependencies@^1.0.0"],
+            "platform-profiling-ui": ["dependencies@^1.0.0"],
+            "rmm-its-portal": ["dependencies@^1.0.0"]
+        }
+    ,
+    "react-bootstrap": [{
+        "platform-common-ui": ["dependencies@^0.31.0"]
+    },
+    "react-dom-factories": {
+            "platform-common-ui": ["dependencies@^1.0.2"],
+            "rmm-its-portal": ["dependencies@^1.0.1"]
+        }
+    ,
+    "react-rangeslider": {
+            "platform-common-ui": ["dependencies@^2.2.0"],
+            "platform-profiling-ui": ["dependencies@^2.2.0"]
+        }
+    ,
+    "react-redux-toastr": [{
+        "platform-common-ui": ["dependencies@^7.1.6"]
+    },
+    "react-toggle": {
+            "platform-common-ui": ["dependencies@^4.0.1"],
+            "rmm-its-portal": ["dependencies@^4.0.1"]
+        }
+    ,
+    "autoprefixer": {
+            "platform-common-ui": ["devDependencies@^7.1.1"],
+            "platform-automation-engine-ui": ["devDependencies@7.1.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^7.1.1"],
+            "platform-tasking-ui": ["devDependencies@7.1.0"],
+            "platform-profiling-ui": ["devDependencies@^7.1.1"],
+            "rmm-its-portal": ["devDependencies@^7.1.1"]
+        }
+    ,
+    "babel-core": {
+            "platform-common-ui": ["devDependencies@^6.25.0"],
+            "platform-automation-engine-ui": ["devDependencies@6.24.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^6.25.0"],
+            "platform-tasking-ui": ["devDependencies@6.24.1"],
+            "platform-profiling-ui": ["devDependencies@^6.25.0"],
+            "rmm-its-portal": ["devDependencies@^6.24.1"]
+        }
+    ,
+    "babel-eslint": {
+            "platform-common-ui": ["devDependencies@^7.2.3"],
+            "platform-automation-engine-ui": ["devDependencies@7.2.3"],
+            "platform-correlation-engine-ui": ["devDependencies@^7.2.3"],
+            "platform-tasking-ui": ["devDependencies@7.2.3"],
+            "platform-profiling-ui": ["devDependencies@^7.2.3"],
+            "rmm-its-portal": ["devDependencies@^7.2.3"]
+        }
+    ,
+    "babel-jest": {
+            "platform-common-ui": ["devDependencies@^20.0.3"],
+            "platform-automation-engine-ui": ["devDependencies@20.0.3"],
+            "platform-correlation-engine-ui": ["devDependencies@^20.0.3"],
+            "platform-tasking-ui": ["devDependencies@20.0.3"],
+            "platform-profiling-ui": ["devDependencies@^20.0.3"],
+            "rmm-its-portal": ["devDependencies@^20.0.3"]
+        }
+    ,
+    "babel-loader": {
+            "platform-common-ui": ["devDependencies@^7.1.0"],
+            "platform-automation-engine-ui": ["devDependencies@7.0.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^7.0.0"],
+            "platform-tasking-ui": ["devDependencies@7.0.0"],
+            "platform-profiling-ui": ["devDependencies@^7.0.0"],
+            "rmm-its-portal": ["devDependencies@^7.0.0"]
+        }
+    ,
+    "babel-plugin-transform-class-properties": {
+            "platform-common-ui": ["devDependencies@^6.24.1"],
+            "platform-automation-engine-ui": ["dependencies@^6.24.1"],
+            "platform-tasking-ui": ["dependencies@^6.24.1"]
+        }
+    ,
+    "babel-plugin-transform-object-rest-spread": {
+            "platform-common-ui": ["devDependencies@^6.23.0"],
+            "platform-automation-engine-ui": ["devDependencies@^6.23.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^6.23.0"],
+            "platform-tasking-ui": ["devDependencies@^6.23.0"],
+            "platform-profiling-ui": ["devDependencies@^6.23.0"],
+            "rmm-its-portal": ["devDependencies@^6.23.0"]
+        }
+    ,
+    "babel-plugin-transform-react-display-name": [{
+        "platform-common-ui": ["devDependencies@^6.25.0"]
+    },
+    "babel-plugin-transform-react-jsx": {
+            "platform-common-ui": ["devDependencies@^6.24.1"],
+            "rmm-its-portal": ["devDependencies@^6.24.1"]
+        }
+    ,
+    "babel-preset-env": {
+            "platform-common-ui": ["devDependencies@^1.5.2"],
+            "platform-automation-engine-ui": ["devDependencies@^1.6.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^1.5.1"],
+            "platform-tasking-ui": ["devDependencies@^1.6.1"],
+            "platform-profiling-ui": ["devDependencies@^1.5.1"],
+            "rmm-its-portal": ["devDependencies@^1.5.1"]
+        }
+    ,
+    "babel-preset-react": {
+            "platform-common-ui": ["devDependencies@^6.24.1"],
+            "platform-automation-engine-ui": ["devDependencies@^6.24.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^6.24.1"],
+            "platform-tasking-ui": ["devDependencies@^6.24.1"],
+            "platform-profiling-ui": ["devDependencies@^6.24.1"],
+            "rmm-its-portal": ["devDependencies@^6.24.1"]
+        }
+    ,
+    "babel-preset-react-hmre": {
+            "platform-common-ui": ["devDependencies@^1.1.1"],
+            "platform-automation-engine-ui": ["devDependencies@^1.1.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^1.1.1"],
+            "platform-tasking-ui": ["devDependencies@^1.1.1"],
+            "platform-profiling-ui": ["devDependencies@^1.1.1"],
+            "rmm-its-portal": ["devDependencies@^1.1.1"]
+        }
+    ,
+    "classnames": {
+            "platform-common-ui": ["devDependencies@^2.2.5", "peerDependencies@^2.2.5"],
+            "platform-automation-engine-ui": ["devDependencies@^2.2.5", "peerDependencies@>=2.2.5"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.2.5", "peerDependencies@>=2.2.5"],
+            "platform-tasking-ui": ["devDependencies@^2.2.5", "peerDependencies@>=2.2.5"],
+            "platform-profiling-ui": ["devDependencies@^2.2.5", "peerDependencies@>=2.2.5"],
+            "rmm-its-portal": ["dependencies@^2.2.5"]
+        }
+    ,
+    "cross-env": {
+            "platform-common-ui": ["devDependencies@^5.0.1"],
+            "rmm-its-portal": ["devDependencies@^5.0.0"]
+        }
+    ,
+    "css-loader": {
+            "platform-common-ui": ["devDependencies@^0.28.4"],
+            "platform-automation-engine-ui": ["devDependencies@0.28.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^0.28.4"],
+            "platform-tasking-ui": ["devDependencies@0.28.1"],
+            "platform-profiling-ui": ["devDependencies@^0.28.4"],
+            "rmm-its-portal": ["devDependencies@^0.28.4"]
+        }
+    ,
+    "enzyme": {
+            "platform-common-ui": ["devDependencies@^2.8.2"],
+            "platform-automation-engine-ui": ["devDependencies@^2.9.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.8.2"],
+            "platform-tasking-ui": ["devDependencies@^2.9.1"],
+            "platform-profiling-ui": ["devDependencies@^2.8.2"],
+            "rmm-its-portal": ["devDependencies@^2.8.2"]
+        }
+    ,
+    "enzyme-to-json": {
+            "platform-common-ui": ["devDependencies@^1.5.1"],
+            "platform-automation-engine-ui": ["devDependencies@1.5.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^1.5.1"],
+            "platform-tasking-ui": ["devDependencies@1.5.1"],
+            "platform-profiling-ui": ["devDependencies@^1.5.1"],
+            "rmm-its-portal": ["devDependencies@^1.5.1"]
+        }
+    ,
+    "eslint": {
+            "platform-common-ui": ["devDependencies@^3.19.0"],
+            "platform-automation-engine-ui": ["devDependencies@3.19.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^3.19.0"],
+            "platform-tasking-ui": ["devDependencies@3.19.0"],
+            "platform-profiling-ui": ["devDependencies@^3.19.0"],
+            "rmm-its-portal": ["devDependencies@^3.19.0"]
+        }
+    ,
+    "eslint-config-airbnb": {
+            "platform-common-ui": ["devDependencies@^15.0.1"],
+            "platform-automation-engine-ui": ["devDependencies@^15.0.2"],
+            "platform-correlation-engine-ui": ["devDependencies@^14.1.0"],
+            "platform-tasking-ui": ["devDependencies@^15.0.2"],
+            "platform-profiling-ui": ["devDependencies@^14.1.0"],
+            "rmm-its-portal": ["devDependencies@^15.0.1"]
+        }
+    ,
+    "eslint-plugin-babel": {
+            "platform-common-ui": ["devDependencies@^4.1.1"],
+            "platform-automation-engine-ui": ["devDependencies@^4.0.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.0.1"],
+            "platform-tasking-ui": ["devDependencies@^4.0.1"],
+            "platform-profiling-ui": ["devDependencies@^4.0.1"],
+            "rmm-its-portal": ["devDependencies@^4.1.1"]
+        }
+    ,
+    "eslint-plugin-import": {
+            "platform-common-ui": ["devDependencies@^2.3.0"],
+            "platform-automation-engine-ui": ["devDependencies@^2.2.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.2.0"],
+            "platform-tasking-ui": ["devDependencies@^2.2.0"],
+            "platform-profiling-ui": ["devDependencies@^2.2.0"],
+            "rmm-its-portal": ["devDependencies@^2.3.0"]
+        }
+    ,
+    "eslint-plugin-jsx-a11y": {
+            "platform-common-ui": ["devDependencies@^5.0.3"],
+            "platform-automation-engine-ui": ["devDependencies@^5.0.3"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.0.0"],
+            "platform-tasking-ui": ["devDependencies@^5.0.3"],
+            "platform-profiling-ui": ["devDependencies@^4.0.0"],
+            "rmm-its-portal": ["devDependencies@^5.0.3"]
+        }
+    ,
+    "eslint-plugin-react": {
+            "platform-common-ui": ["devDependencies@^7.1.0"],
+            "platform-automation-engine-ui": ["devDependencies@^7.0.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^6.10.0"],
+            "platform-tasking-ui": ["devDependencies@^7.4.0"],
+            "platform-profiling-ui": ["devDependencies@^6.10.0"],
+            "rmm-its-portal": ["devDependencies@^7.0.1"]
+        }
+    ,
+    "express": {
+            "platform-common-ui": ["devDependencies@^4.15.3"],
+            "platform-automation-engine-ui": ["devDependencies@^4.15.3"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.15.3"],
+            "platform-tasking-ui": ["devDependencies@^4.16.2"],
+            "platform-profiling-ui": ["devDependencies@^4.15.3"],
+            "rmm-its-portal": ["devDependencies@^4.15.3"]
+        }
+    ,
+    "extract-text-webpack-plugin": {
+            "platform-common-ui": ["devDependencies@^2.1.2"],
+            "platform-automation-engine-ui": ["devDependencies@2.1.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.1.2"],
+            "platform-tasking-ui": ["devDependencies@2.1.0"],
+            "platform-profiling-ui": ["devDependencies@^2.1.2"],
+            "rmm-its-portal": ["devDependencies@^2.1.0"]
+        }
+    ,
+    "fetch-mock": {
+            "platform-common-ui": ["devDependencies@^5.11.0"],
+            "platform-automation-engine-ui": ["devDependencies@^5.12.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^5.12.0"],
+            "platform-tasking-ui": ["devDependencies@^5.13.1"],
+            "platform-profiling-ui": ["devDependencies@^5.12.0"],
+            "rmm-its-portal": ["devDependencies@^5.11.0"]
+        }
+    ,
+    "file-loader": {
+            "platform-common-ui": ["devDependencies@^0.11.2"],
+            "platform-automation-engine-ui": ["devDependencies@0.11.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^0.11.2"],
+            "platform-tasking-ui": ["devDependencies@^1.1.6"],
+            "platform-profiling-ui": ["devDependencies@^0.11.2"],
+            "rmm-its-portal": ["devDependencies@^0.11.2"]
+        }
+    ,
+    "identity-obj-proxy": {
+            "platform-common-ui": ["devDependencies@^3.0.0"],
+            "platform-tasking-ui": ["devDependencies@^3.0.0"],
+            "platform-profiling-ui": ["devDependencies@^3.0.0"]
+        }
+    ,
+    "jasmine-reporters": {
+            "platform-common-ui": ["devDependencies@^2.2.1"],
+            "platform-automation-engine-ui": ["devDependencies@^2.2.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.2.1"],
+            "platform-tasking-ui": ["devDependencies@^2.2.1"],
+            "platform-profiling-ui": ["devDependencies@^2.2.1"],
+            "rmm-its-portal": ["devDependencies@^2.2.1"]
+        }
+    ,
+    "jest": {
+            "platform-common-ui": ["devDependencies@^20.0.4"],
+            "platform-automation-engine-ui": ["devDependencies@20.0.3"],
+            "platform-correlation-engine-ui": ["devDependencies@^20.0.4"],
+            "platform-tasking-ui": ["devDependencies@20.0.3"],
+            "platform-profiling-ui": ["devDependencies@^20.0.4"],
+            "rmm-its-portal": ["devDependencies@^20.0.4"]
+        }
+    ,
+    "lodash": {
+            "platform-common-ui": ["devDependencies@^4.17.4", "peerDependencies@^4.17.4"],
+            "platform-automation-engine-ui": ["devDependencies@^4.17.4", "peerDependencies@>=4.0.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.17.4", "peerDependencies@>=4.0.0"],
+            "platform-tasking-ui": ["devDependencies@^4.17.4", "peerDependencies@>=4.0.0"],
+            "platform-profiling-ui": ["devDependencies@^4.17.4", "peerDependencies@>=4.0.0"],
+            "rmm-its-portal": ["dependencies@^4.17.4"]
+        }
+    ,
+    "node-sass": {
+            "platform-common-ui": ["devDependencies@^4.5.3"],
+            "platform-automation-engine-ui": ["devDependencies@^4.5.3"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.5.3"],
+            "platform-tasking-ui": ["devDependencies@^4.5.3"],
+            "platform-profiling-ui": ["devDependencies@^4.5.3"],
+            "rmm-its-portal": ["devDependencies@^4.5.3"]
+        }
+    ,
+    "platform-common-assets": {
+            "platform-common-ui": ["devDependencies@^1.0.8"],
+            "rmm-its-portal": ["dependencies@^1.0.12"]
+        }
+    ,
+    "postcss-loader": {
+            "platform-common-ui": ["devDependencies@^2.0.6"],
+            "platform-automation-engine-ui": ["devDependencies@2.0.5"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.0.6"],
+            "platform-tasking-ui": ["devDependencies@2.0.5"],
+            "platform-profiling-ui": ["devDependencies@^2.0.6"],
+            "rmm-its-portal": ["devDependencies@^2.0.5"]
+        }
+    ,
+    "prop-types": {
+            "platform-common-ui": ["devDependencies@^15.5.10", "peerDependencies@>=15.5.0"],
+            "platform-automation-engine-ui": ["devDependencies@^15.5.10"],
+            "platform-correlation-engine-ui": ["devDependencies@^15.5.0"],
+            "platform-tasking-ui": ["devDependencies@^15.6.0"],
+            "platform-profiling-ui": ["devDependencies@^15.5.0"],
+            "rmm-its-portal": ["dependencies@^15.5.10"]
+        }
+    ,
+    "react": {
+            "platform-common-ui": ["devDependencies@15.6.1", "peerDependencies@>=15.5.0"],
+            "platform-automation-engine-ui": ["devDependencies@^15.6.1", "peerDependencies@>=15.5.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^15.6.0", "peerDependencies@>=15.5.0"],
+            "platform-tasking-ui": ["devDependencies@^15.6.2", "peerDependencies@>=15.5.0"],
+            "platform-profiling-ui": ["devDependencies@^15.6.0", "peerDependencies@>=15.5.0"],
+            "rmm-its-portal": ["dependencies@^15.5.4"]
+        }
+    ,
+    "react-addons-test-utils": [{
+        "platform-common-ui": ["devDependencies@15.6.0"]
+    },
+    "react-dom": {
+            "platform-common-ui": ["devDependencies@15.6.1"],
+            "platform-automation-engine-ui": ["devDependencies@^15.6.1", "peerDependencies@>=15.5.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^15.6.0", "peerDependencies@>=15.5.0"],
+            "platform-tasking-ui": ["devDependencies@^15.6.2", "peerDependencies@>=15.5.0"],
+            "platform-profiling-ui": ["devDependencies@^15.6.0", "peerDependencies@>=15.5.0"],
+            "rmm-its-portal": ["dependencies@^15.5.4"]
+        }
+    ,
+    "react-redux": {
+            "platform-common-ui": ["devDependencies@^5.0.5", "peerDependencies@>=5.0.0"],
+            "platform-automation-engine-ui": ["devDependencies@^5.0.5", "peerDependencies@>=5.0.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^5.0.0", "peerDependencies@>=5.0.0"],
+            "platform-tasking-ui": ["devDependencies@^5.0.5", "peerDependencies@>=5.0.0"],
+            "platform-profiling-ui": ["devDependencies@^5.0.0", "peerDependencies@>=5.0.0"],
+            "rmm-its-portal": ["dependencies@^5.0.5"]
+        }
+    ,
+    "react-redux-popup": {
+            "platform-common-ui": ["devDependencies@^2.0.0", "peerDependencies@>=2.0.0"],
+            "platform-automation-engine-ui": ["devDependencies@^2.0.0", "peerDependencies@>=1.0.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.1.4", "peerDependencies@>=1.0.0"],
+            "platform-tasking-ui": ["devDependencies@^2.1.6", "peerDependencies@>=1.0.0"],
+            "platform-profiling-ui": ["devDependencies@^2.1.4", "peerDependencies@>=1.0.0"],
+            "rmm-its-portal": ["dependencies@^2.1.3"]
+        }
+    ,
+    "react-router-dom": {
+            "platform-common-ui": ["devDependencies@^4.1.2", "peerDependencies@>=4.0.0"],
+            "platform-automation-engine-ui": ["devDependencies@^4.1.2", "peerDependencies@^4.1.2"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.1.1", "peerDependencies@>=4.1.1"],
+            "platform-tasking-ui": ["devDependencies@^4.2.2", "peerDependencies@^4.1.2"],
+            "platform-profiling-ui": ["devDependencies@^4.1.1", "peerDependencies@>=4.1.1"],
+            "rmm-its-portal": ["dependencies@^4.1.1"]
+        }
+    ,
+    "react-test-renderer": {
+            "platform-common-ui": ["devDependencies@15.6.1"],
+            "platform-automation-engine-ui": ["devDependencies@15.5.4"],
+            "platform-correlation-engine-ui": ["devDependencies@^15.6.1"],
+            "platform-tasking-ui": ["devDependencies@15.5.4"],
+            "platform-profiling-ui": ["devDependencies@^15.6.1"],
+            "rmm-its-portal": ["devDependencies@^15.5.4"]
+        }
+    ,
+    "react-transition-group": {
+            "platform-common-ui": ["devDependencies@^1.2.0", "peerDependencies@>=1.0.0"],
+            "platform-automation-engine-ui": ["devDependencies@^1.2.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^1.2.0"],
+            "platform-tasking-ui": ["devDependencies@^1.2.1"],
+            "platform-profiling-ui": ["devDependencies@^1.2.0"],
+            "rmm-its-portal": ["dependencies@^1.2.0"]
+        }
+    ,
+    "redux": {
+            "platform-common-ui": ["devDependencies@^3.7.0"],
+            "platform-automation-engine-ui": ["devDependencies@^3.7.1", "peerDependencies@>=3.6.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^3.6.0", "peerDependencies@>=3.6.0"],
+            "platform-tasking-ui": ["devDependencies@^3.7.1", "peerDependencies@>=3.6.0"],
+            "platform-profiling-ui": ["devDependencies@^3.6.0", "peerDependencies@>=3.6.0"],
+            "rmm-its-portal": ["dependencies@^3.6.0"]
+        }
+    ,
+    "redux-mock-store": {
+            "platform-common-ui": ["devDependencies@^1.2.3"],
+            "platform-automation-engine-ui": ["devDependencies@^1.2.3"],
+            "platform-correlation-engine-ui": ["devDependencies@^1.2.3"],
+            "platform-tasking-ui": ["devDependencies@^1.3.0"],
+            "platform-profiling-ui": ["devDependencies@^1.2.3"],
+            "rmm-its-portal": ["devDependencies@^1.2.3"]
+        }
+    ,
+    "rimraf": {
+            "platform-common-ui": ["devDependencies@^2.6.1"],
+            "rmm-its-portal": ["devDependencies@^2.6.1"]
+        }
+    ,
+    "sass-loader": {
+            "platform-common-ui": ["devDependencies@^6.0.6"],
+            "platform-automation-engine-ui": ["devDependencies@^6.0.6"],
+            "platform-correlation-engine-ui": ["devDependencies@^6.0.5"],
+            "platform-tasking-ui": ["devDependencies@^6.0.6"],
+            "platform-profiling-ui": ["devDependencies@^6.0.5"],
+            "rmm-its-portal": ["devDependencies@^6.0.5"]
+        }
+    ,
+    "webpack-dev-middleware": {
+            "platform-common-ui": ["devDependencies@^1.10.2"],
+            "platform-automation-engine-ui": ["devDependencies@^1.11.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^1.10.2"],
+            "platform-tasking-ui": ["devDependencies@^1.11.0"],
+            "platform-profiling-ui": ["devDependencies@^1.10.2"],
+            "rmm-its-portal": ["devDependencies@^1.10.2"]
+        }
+    ,
+    "webpack-hot-middleware": {
+            "platform-common-ui": ["devDependencies@^2.18.0"],
+            "platform-automation-engine-ui": ["devDependencies@^2.18.2"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.18.0"],
+            "platform-tasking-ui": ["devDependencies@^2.20.0"],
+            "platform-profiling-ui": ["devDependencies@^2.18.0"],
+            "rmm-its-portal": ["devDependencies@^2.18.0"]
+        }
+    ,
+    "babel-plugin-react-intl": {
+            "platform-automation-engine-ui": ["dependencies@^2.3.1"],
+            "platform-correlation-engine-ui": ["dependencies@^2.3.1"],
+            "platform-tasking-ui": ["dependencies@^2.3.1"],
+            "platform-profiling-ui": ["dependencies@^2.3.1"],
+            "rmm-its-portal": ["devDependencies@^2.3.1"]
+        }
+    ,
+    "react-intl": {
+            "platform-automation-engine-ui": ["dependencies@^2.4.0"],
+            "platform-correlation-engine-ui": ["dependencies@^2.4.0"],
+            "platform-tasking-ui": ["dependencies@^2.4.0"],
+            "platform-profiling-ui": ["dependencies@^2.4.0"],
+            "rmm-its-portal": ["dependencies@^2.4.0"]
+        }
+    ,
+    "react-intl-translations-manager": {
+            "platform-automation-engine-ui": ["dependencies@^5.0.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^5.0.1"],
+            "platform-tasking-ui": ["dependencies@^5.0.1"],
+            "platform-profiling-ui": ["devDependencies@^5.0.1"],
+            "rmm-its-portal": ["devDependencies@^5.0.1"]
+        }
+    ,
+    "babel-plugin-lodash": {
+            "platform-automation-engine-ui": ["devDependencies@^3.2.11"],
+            "platform-correlation-engine-ui": ["devDependencies@^3.2.11"],
+            "platform-tasking-ui": ["devDependencies@^3.2.11"],
+            "platform-profiling-ui": ["devDependencies@^3.2.11"],
+            "rmm-its-portal": ["devDependencies@^3.2.11"]
+        }
+    ,
+    "babel-plugin-transform-decorators-legacy": {
+            "platform-automation-engine-ui": ["devDependencies@^1.3.4"],
+            "platform-correlation-engine-ui": ["devDependencies@^1.3.4"],
+            "platform-tasking-ui": ["devDependencies@^1.3.4"],
+            "platform-profiling-ui": ["devDependencies@^1.3.4"]
+        }
+    ,
+    "babel-preset-react-app": {
+            "platform-automation-engine-ui": ["devDependencies@^3.0.0"],
+            "platform-tasking-ui": ["devDependencies@^3.0.3"]
+        }
+    ,
+    "babel-runtime": {
+            "platform-automation-engine-ui": ["devDependencies@6.23.0"],
+            "platform-tasking-ui": ["devDependencies@6.23.0"]
+        }
+    ,
+    "case-sensitive-paths-webpack-plugin": {
+            "platform-automation-engine-ui": ["devDependencies@1.1.4"],
+            "platform-tasking-ui": ["devDependencies@1.1.4"]
+        }
+    ,
+    "chalk": {
+            "platform-automation-engine-ui": ["devDependencies@1.1.3"],
+            "platform-tasking-ui": ["devDependencies@1.1.3"]
+        }
+    ,
+    "dotenv": {
+            "platform-automation-engine-ui": ["devDependencies@4.0.0"],
+            "platform-tasking-ui": ["devDependencies@4.0.0"]
+        }
+    ,
+    "eslint-config-react-app": {
+            "platform-automation-engine-ui": ["devDependencies@^1.0.4"],
+            "platform-tasking-ui": ["devDependencies@^1.0.4"]
+        }
+    ,
+    "eslint-loader": {
+            "platform-automation-engine-ui": ["devDependencies@1.7.1"],
+            "platform-tasking-ui": ["devDependencies@1.7.1"]
+        }
+    ,
+    "eslint-plugin-flowtype": {
+            "platform-automation-engine-ui": ["devDependencies@2.33.0"],
+            "platform-tasking-ui": ["devDependencies@2.33.0"]
+        }
+    ,
+    "fs-extra": {
+            "platform-automation-engine-ui": ["devDependencies@3.0.1"],
+            "platform-tasking-ui": ["devDependencies@3.0.1"]
+        }
+    ,
+    "graphql": {
+            "platform-automation-engine-ui": ["devDependencies@^0.10.4", "peerDependencies@^0.10.4"],
+            "platform-tasking-ui": ["devDependencies@^0.10.4", "peerDependencies@^0.10.4" ]
+        }
+    ,
+    "graphql-tag": {
+            "platform-automation-engine-ui": ["devDependencies@^2.4.2"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.4.2"],
+            "platform-tasking-ui": ["devDependencies@^2.5.0"],
+            "platform-profiling-ui": ["devDependencies@^2.4.2"],
+            "rmm-its-portal": ["devDependencies@^2.4.2"]
+        }
+    ,
+    "html-webpack-plugin": {
+            "platform-automation-engine-ui": ["devDependencies@2.28.0"],
+            "platform-tasking-ui": ["devDependencies@2.28.0"]
+        }
+    ,
+    "jest-styled-components": {
+            "platform-automation-engine-ui": ["devDependencies@^3.3.2"],
+            "platform-tasking-ui": ["devDependencies@^3.3.2"]
+        }
+    ,
+    "json-server": {
+            "platform-automation-engine-ui": ["devDependencies@^0.11.2"],
+            "platform-correlation-engine-ui": ["devDependencies@^0.10.1"],
+            "platform-tasking-ui": ["devDependencies@^0.11.2"],
+            "platform-profiling-ui": ["devDependencies@^0.10.1"],
+            "rmm-its-portal": ["dependencies@^0.10.1", "devDependencies@^0.10.1" ]
+        }
+    ,
+    "object-assign": {
+            "platform-automation-engine-ui": ["devDependencies@4.1.1"],
+            "platform-tasking-ui": ["devDependencies@4.1.1"]
+        }
+    ,
+    "platform-common-ui": {
+            "platform-automation-engine-ui": ["devDependencies@^2.3.4", "peerDependencies@>=1.2.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.3.3", "peerDependencies@>=2.3.0"],
+            "platform-tasking-ui": ["devDependencies@^2.3.7", "peerDependencies@>=1.2.0"],
+            "platform-profiling-ui": ["devDependencies@^2.3.4"],
+            "rmm-its-portal": ["dependencies@^2.3.7"]
+        }
+    ,
+    "postcss-flexbugs-fixes": {
+            "platform-automation-engine-ui": ["devDependencies@3.0.0"],
+            "platform-tasking-ui": ["devDependencies@3.0.0"]
+        }
+    ,
+    "promise": {
+            "platform-automation-engine-ui": ["devDependencies@7.1.1"],
+            "platform-tasking-ui": ["devDependencies@7.1.1"]
+        }
+    ,
+    "react-addons-css-transition-group": {
+            "platform-automation-engine-ui": ["devDependencies@^15.6.0"],
+            "platform-correlation-engine-ui": ["peerDependencies@>=15.5.0"],
+            "platform-tasking-ui": ["devDependencies@^15.6.2"],
+            "platform-profiling-ui": ["peerDependencies@>=15.5.0"],
+            "rmm-its-portal": ["dependencies@^15.6.0"]
+        }
+    ,
+    "react-dev-utils": {
+            "platform-automation-engine-ui": ["devDependencies@^3.0.0"],
+            "platform-tasking-ui": ["devDependencies@^3.0.0"]
+        }
+    ,
+    "react-error-overlay": {
+            "platform-automation-engine-ui": ["devDependencies@^1.0.7"],
+            "platform-tasking-ui": ["devDependencies@^1.0.7"]
+        }
+    ,
+    "react-router": {
+            "platform-automation-engine-ui": ["devDependencies@^4.1.1", "peerDependencies@>=3.0.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^3.0.2", "peerDependencies@>=3.0.0"],
+            "platform-tasking-ui": ["devDependencies@^4.2.0", "peerDependencies@>=3.0.0"],
+            "platform-profiling-ui": ["devDependencies@^3.0.2", "peerDependencies@>=3.0.0"],
+            "rmm-its-portal": ["dependencies@^4.1.1"]
+        }
+    ,
+    "react-router-redux": {
+            "platform-automation-engine-ui": ["devDependencies@^4.0.8"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.0.8", "peerDependencies@>=4.0.0"],
+            "platform-tasking-ui": ["devDependencies@^4.0.8"],
+            "platform-profiling-ui": ["devDependencies@^4.0.8", "peerDependencies@>=4.0.0"],
+            "rmm-its-portal": ["dependencies@^5.0.0-alpha.6"]
+        }
+    ,
+    "redux-thunk": {
+            "platform-automation-engine-ui": ["devDependencies@^2.2.0", "peerDependencies@>=2.2.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.2.0", "peerDependencies@>=2.2.0"],
+            "platform-tasking-ui": ["devDependencies@^2.2.0", "peerDependencies@>=2.2.0"],
+            "platform-profiling-ui": ["devDependencies@^2.2.0", "peerDependencies@>=2.2.0"],
+            "rmm-its-portal": ["dependencies@^2.2.0"]
+        }
+    ,
+    "reselect": {
+            "platform-automation-engine-ui": ["devDependencies@^3.0.1", "peerDependencies@^3.0.1"],
+            "platform-correlation-engine-ui": ["devDependencies@^3.0.1", "peerDependencies@^3.0.1"],
+            "platform-tasking-ui": ["devDependencies@^3.0.1", "peerDependencies@^3.0.1"],
+            "platform-profiling-ui": ["devDependencies@^3.0.1", "peerDependencies@^3.0.1"],
+            "rmm-its-portal": ["dependencies@^3.0.1"]
+        }
+    ,
+    "style-loader": {
+            "platform-automation-engine-ui": ["devDependencies@0.17.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^0.18.2"],
+            "platform-tasking-ui": ["devDependencies@0.17.0"],
+            "platform-profiling-ui": ["devDependencies@^0.18.2"],
+            "rmm-its-portal": ["devDependencies@^0.18.2"]
+        }
+    ,
+    "styled-components": {
+            "platform-automation-engine-ui": ["devDependencies@^2.1.1", "peerDependencies@^2.1.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^2.1.0", "peerDependencies@^2.1.0"],
+            "platform-tasking-ui": ["devDependencies@^2.2.1", "peerDependencies@^2.1.0"],
+            "platform-profiling-ui": ["devDependencies@^2.1.0", "peerDependencies@^2.1.0"],
+            "rmm-its-portal": ["dependencies@^2.1.0"]
+        }
+    ,
+    "sw-precache-webpack-plugin": {
+            "platform-automation-engine-ui": ["devDependencies@0.9.1"],
+            "platform-tasking-ui": ["devDependencies@0.9.1"]
+        }
+    ,
+    "url-loader": {
+            "platform-automation-engine-ui": ["devDependencies@0.5.8"],
+            "platform-correlation-engine-ui": ["devDependencies@^0.5.8"],
+            "platform-tasking-ui": ["devDependencies@0.5.8"],
+            "platform-profiling-ui": ["devDependencies@^0.5.8"],
+            "rmm-its-portal": ["devDependencies@^0.5.8"]
+        }
+    ,
+    "uuid": {
+            "platform-automation-engine-ui": ["devDependencies@^3.1.0"],
+            "platform-tasking-ui": ["devDependencies@^3.1.0"]
+        }
+    ,
+    "webpack-manifest-plugin": {
+            "platform-automation-engine-ui": ["devDependencies@1.1.0"],
+            "platform-tasking-ui": ["devDependencies@1.1.0"]
+        }
+    ,
+    "webpack-merge": {
+            "platform-automation-engine-ui": ["devDependencies@^4.1.0"],
+            "platform-correlation-engine-ui": ["devDependencies@^4.1.0"],
+            "platform-tasking-ui": ["devDependencies@^4.1.0"],
+            "platform-profiling-ui": ["devDependencies@^4.1.0"],
+            "rmm-its-portal": ["devDependencies@^4.1.0"]
+        }
+    ,
+    "whatwg-fetch": {
+            "platform-automation-engine-ui": ["devDependencies@2.0.3"],
+            "platform-tasking-ui": ["devDependencies@2.0.3"]
+        }
+    ,
+    "enzyme-react-intl": {
+            "platform-correlation-engine-ui": ["dependencies@^1.4.5"],
+            "platform-profiling-ui": ["devDependencies@^1.4.5"]
+        }
+    ,
+    "redux-test-utils": {
+            "platform-correlation-engine-ui": ["dependencies@^0.1.3"],
+            "platform-profiling-ui": ["dependencies@^0.1.3"]
+        }
+    ,
+    "react-apollo": {
+            "platform-correlation-engine-ui": ["devDependencies@^1.4.2"],
+            "platform-profiling-ui": ["devDependencies@^1.4.2"],
+            "rmm-its-portal": ["dependencies@^1.4.2"]
+        }
+    ,
+    "sprintf-js": {
+            "platform-correlation-engine-ui": ["devDependencies@^1.1.1"],
+            "platform-profiling-ui": ["devDependencies@^1.1.1"]
+        }
+    ,
+    "axios": [{
+        "platform-tasking-ui": ["dependencies@^0.17.1"]
+    },
+    "moment": {
+            "platform-tasking-ui": ["dependencies@^2.19.4"],
+            "platform-profiling-ui": ["dependencies@^2.19.2"],
+            "rmm-its-portal": ["dependencies@^2.19.2"]
+        }
+    ,
+    "moment-timezone": [{
+        "platform-tasking-ui": ["dependencies@^0.5.14"]
+    },
+    "react-modal": [{
+        "platform-tasking-ui": ["dependencies@^3.1.10"]
+    },
+    "react-truncate": [{
+        "platform-tasking-ui": ["dependencies@^2.3.0"]
+    },
+    "babel-plugin-dynamic-import-node": [{
+        "platform-tasking-ui": ["devDependencies@^1.2.0"]
+    },
+    "babel-plugin-syntax-dynamic-import": [{
+        "platform-tasking-ui": ["devDependencies@^6.18.0"]
+    },
+    "node-blockly": [{
+        "platform-tasking-ui": ["devDependencies@^1.0.32"]
+    },
+    "react-jsonschema-form": [{
+        "platform-tasking-ui": ["devDependencies@^1.0.0"]
+    },
+    "apollo-fetch": [{
+        "rmm-its-portal": ["dependencies@^0.7.0"]
+    },
+    "crypto-js": [{
+        "rmm-its-portal": ["dependencies@^3.1.9-1"]
+    },
+    "history": [{
+        "rmm-its-portal": ["dependencies@^4.6.1"]
+    },
+    "immutability-helper": [{
+        "rmm-its-portal": ["dependencies@^2.2.2"]
+    },
+    "intl": [{
+        "rmm-its-portal": ["dependencies@^1.2.5"]
+    },
+    "platform-automation-engine-ui": [{
+        "rmm-its-portal": ["dependencies@^0.1.0-rc"]
+    },
+    "platform-correlation-engine-ui": [{
+        "rmm-its-portal": ["dependencies@^1.0.0-rc1"]
+    },
+    "platform-profiling-ui": [{
+        "rmm-its-portal": ["dependencies@^0.0.1"]
+    },
+    "platform-tasking-ui": [{
+        "rmm-its-portal": ["dependencies@^0.1.0-rc"]
+    },
+    "react-loadable": [{
+        "rmm-its-portal": ["dependencies@^5.3.1"]
+    },
+    "redux-beacon": [{
+        "rmm-its-portal": ["dependencies@^1.2.0"]
+    },
+    "babel-plugin-dynamic-import-webpack": [{
+        "rmm-its-portal": ["devDependencies@^1.0.2"]
+    },
+    "body-parser": [{
+        "rmm-its-portal": ["devDependencies@^1.17.2"]
+    },
+    "eslint-plugin-graphql": [{
+        "rmm-its-portal": ["devDependencies@^1.1.0"]
+    },
+    "jest-transform-graphql": [{
+        "rmm-its-portal": ["devDependencies@^2.1.0"]
+    },
+    "json-loader": [{
+        "rmm-its-portal": ["devDependencies@^0.5.4"]
+    },
+    "properties": [{
+        "rmm-its-portal": ["devDependencies@^1.2.1"]
+    },
+    "webpack-bundle-analyzer": [{
+        "rmm-its-portal": ["devDependencies@^2.9.2"]
+    }]
+}

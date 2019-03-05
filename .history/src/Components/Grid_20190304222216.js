@@ -62,7 +62,7 @@ class Grid extends React.Component {
                 field: col, 
                 tooltipField: col,
                 cellClass: (params) => {
-                    return params.value && params.value.length > 1 ? 'cell-highlight-dual-deps' : undefined;
+                    return params.value.length > 1 ? 'cell-highlight-dual-deps' : undefined;
                 }
             };
         });
