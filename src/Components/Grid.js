@@ -2,69 +2,85 @@ import React from 'react'
 import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
-import jsonData from '../data/dependency-compare-output-20190304_155240.json';
-import { ComponentResolver } from 'ag-grid-community';
-
+import jsonData from '../data/mock-data-1.json';
+// import jsonData from '../data/dependency-compare-output-20190304_155240.json';
+// import { ComponentResolver } from 'ag-grid-community';
+// const myData = JSON.parse(jsonData);
 class Grid extends React.Component {
     constructor(props) {
         super(props)
-        this.ColumnNames = this.getColumnNames(jsonData)
-        this.RowNames = this.getRowNames(jsonData)
-        this.RowData = this.formatRowData(this.RowNames)
+
+        // console.log("jsonData is type: ", typeof jsonData, jsonData);
+        this.ColumnNames = this.getColumnNames(jsonData);
+        this.RowNames = this.getRowNames(jsonData);
+        this.RowData =  this.formatRowData(jsonData);
+        this.ColDefs = this.getColumnDefs(this.ColumnNames);
+
+        // console.log("column names are: ", this.ColumnNames);
+        // console.log("row names are: ", this.RowNames);
+        console.log("columnDefs are: ", this.ColDefs);
+        console.log("rowData is: ", this.RowData);
+
         this.state = {
-            ColumnDefs: [
-                {
-                    headerName: "packageName", field: "name"
-                }
-            ],
-            rowData: this.rowData
+            columnDefs: this.ColDefs,
+            rowData: this.RowData
         }
-        console.log(this.ColumnNames)
-        console.log(this.RowNames)
     }
+
     render() {
         return (
             <div 
-            className="ag-theme-balham"
-            style={{ 
-            height: '500px', 
-            width: '600px' }} 
-            >
+                className="ag-theme-balham"
+                style={{ height: '500px', width: '100%' }}>
                 <AgGridReact
-                columnDefs={this.state.columnDefs}
-                rowData={this.state.rowData}>
+                    columnDefs={this.state.columnDefs}
+                    rowData={this.state.rowData}
+                    enableBrowserTooltips>
                 </AgGridReact>
              </div>
         )
     }
+
     getColumnNames(json) {
-        let columnNames = []
-        Object.keys(json.dependencyPivotData).forEach(pkgName => {
-            columnNames.push(pkgName)
-        })
+        let columnNames = [];
+        Object.values(json).forEach(libData => {
+            columnNames.push(...Object.keys(libData));
+        });
 
-        return columnNames
+        return [...new Set(columnNames)];
     }
+
     getRowNames(json) {
-        let rowNames = []
-        const packageNames = Object.keys(json.dependencyPivotData)
-        packageNames.forEach(pkg => {
-            json.dependencyPivotData[pkg].forEach(array => {
-                rowNames.push(array.name)    
-            })
-        })
-        return rowNames
+        let result = Object.keys(json);
+        return result;
     }
 
-    formatRowData(rowNames) {
-        let RowObj = []
-        rowNames.forEach(name => {
-            RowObj.push({
-                name: name
-            })
+    getColumnDefs(colNames){
+        let columnDefs = colNames.map(col => {
+            return { 
+                headerName: col, 
+                field: col, 
+                tooltipField: col,
+                cellClass: (params) => {
+                    return params.value && params.value.length > 1 ? 'cell-highlight-dual-deps' : undefined;
+                }
+            };
+        });
+        return [
+            { headerName: 'Library Name', field: 'name'},
+            ...columnDefs
+        ];
+    }
+
+    formatRowData(json) {
+        let rowData = [];
+        Object.keys(json).forEach(k => {
+            rowData.push({
+                name: k,
+                ...json[k]
+            });
         })
-        console.log(RowObj)
-        return RowObj
+        return rowData;
     }
 }
 
