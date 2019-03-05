@@ -5,6 +5,7 @@
   "dependencies": {
     "ag-grid-community": "^20.1.0",
     "ag-grid-react": "^20.1.1",
+    "fs": "0.0.1-security",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
