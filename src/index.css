@@ -12,3 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.cell-highlight-dual-deps{
+    background-color: #f7e2a5;
+}
